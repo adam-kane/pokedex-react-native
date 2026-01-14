@@ -6,6 +6,8 @@ This challenge is designed to evaluate your ability to work with an existing Rea
 
 You are expected to focus on **code quality**, **clarity of thought**, and **practical decision‑making** rather than over‑engineering.
 
+At most you should spend 3 hours working on the features below. There is no requirement to complete all of the features listed, focus on solid implementations rather than trying to work through each quickly.
+
 ---
 
 ## Project Setup
@@ -56,11 +58,15 @@ Requirements:
 * Load more Pokémon as the user scrolls (infinite scroll)
 * Handle loading and error states gracefully
 
+Notes:
+
+* Consider offline support/caching data
+
 ---
 
 ### 2. Style the Pokémon Detail Screen
 
-**Goal:** Match the provided Figma designs as closely as is practical.
+**Goal:** Match the provided Figma designs, doesn't have to be pixel perfect.
 
 Requirements:
 
@@ -93,7 +99,7 @@ Considerations:
 
 ---
 
-### 4. Stretch Goal - Add Filtering by Type Functionality
+### 4. Add Filtering by Type Functionality
 
 **Goal:** Allow users to filter the Pokémon list by their type
 
@@ -118,8 +124,6 @@ Requirements:
 <img width="664" height="548" alt="Screenshot 2026-01-14 at 10 01 53" src="https://github.com/user-attachments/assets/99c35c00-0c2a-41c8-ae05-1afdac7841c0" />
 
 
-
-
 ---
 
 ## Technical Expectations
@@ -128,12 +132,13 @@ Requirements:
 * Keep components focused and reusable
 * Write clear, self‑explanatory code
 * Reasonable error handling is expected
+* Add tests where appropriate
 
 You do **not** need to:
 
-* Add tests (unless you want to)
 * Over‑optimize or introduce heavy libraries
 * Perfectly match every pixel of the design
+* Implement every feature listed
 
 ---
 
